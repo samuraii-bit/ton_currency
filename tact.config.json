@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tact-lang/tact/main/src/config/configSchema.json",
+  "projects": [
+    {
+      "name": "SendTon",
+      "path": "contracts/send_ton.tact",
+      "output": "build/SendTon",
+      "options": {
+        "debug": false,
+        "external": false
+      },
+      "mode": "full"
+    },
+    {
+      "name": "Item",
+      "path": "contracts/item.tact",
+      "output": "build/Item",
+      "options": {
+        "debug": false,
+        "external": false
+      },
+      "mode": "full"
+    }
+  ]
+}
